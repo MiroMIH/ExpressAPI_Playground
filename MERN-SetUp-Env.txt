@@ -1,0 +1,21 @@
+
+-NodeJs project with : frontend and backend , .gitignore . readme.md
+-backend setup
+    -cd backend npm init -y
+    -add type module
+    -npm i express nodemon
+    -scripts : start node index.js , dev nodemon index.js
+    -setup index.js with express.js
+    -setup config.js with export const port 
+    -listen to port  and consol log listening to port 
+    -npm run dev
+
+    -app get to home and log request with return reposne.status 234 send welcome ... ect
+
+
+    -setup mongoDB
+    -import mongoDBURL with root:root
+    -npm i mongoose 
+    -import mongoose
+    -moongose .connect .then . catch
+    -app listen to port with consol log 
